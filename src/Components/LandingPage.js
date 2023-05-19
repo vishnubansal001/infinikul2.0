@@ -4,7 +4,7 @@ import { GrFormNextLink } from "react-icons/gr";
 
 const LandingPage = () => {
   return (
-    <div className='lg:h-[1120px] bg-cover  filter-blue blur-3x bg-[url(C:\Users\singh\Desktop\Infinikul\infi\src\assets\bg1.png)] text-white'>
+    <div className='lg:h-[1120px] bg-cover  filter-blue blur-3x text-white'>
           <NavBar/>
           <div className='mt-[300px] '>
              <h1 className='lg:text-[80px] text-[60px] font-bold '>unlock your potential with <br/>

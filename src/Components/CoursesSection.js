@@ -3,7 +3,7 @@ import CourseCard from '../UI/CourseCard';
 
 const CoursesSection = () => {
   return (
-    <div className="grid grid-rows-2 mt-12 bg-[url(C:\Users\singh\Desktop\Infinikul\infi\src\assets\v1.png)] bg-cover">
+    <div className="grid grid-rows-2 mt-12 bg-cover">
       <div>
         <h1 className="text-[70px] font-extrabold mt-6">learn and <br />
           earn with us.
