@@ -28,10 +28,10 @@ const LandingPage = () => {
             <div className="flex flex-col items-center justify-center lg:gap-12 md:gap-10 gap-8">
               <div className="flex flex-col justify-center items-center text-center text-white md:w-auto w-[90%] mx-auto gap-4">
                 <div className="flex flex-col justify-center items-center text-center gap-3">
-                  <h1 className="lg:text-6xl md:text-4xl text-3xl font-bold lg:leading-7 leading-10">
+                  <h1 className="lg:text-6xl md:text-4xl text-3xl font-bold leading-10">
                     unlock your potential with
                   </h1>
-                  <h1 className="lg:text-6xl md:text-4xl text-3xl font-bold lg:leading-7 leading-10">
+                  <h1 className="lg:text-6xl md:text-4xl text-3xl font-bold leading-10">
                     our community.
                   </h1>
                 </div>
