@@ -1,9 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald&family=Playfair+Display&family=Roboto+Slab:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald&family=Playfair+Display&family=Roboto+Slab:wght@300&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-html{
-    font-family: 'Montserrat', sans-serif;
+html {
+  font-family: "Montserrat", sans-serif;
 }
-    
+
+.showpopup {
+  opacity: 1;
+  visibility: visible;
+  transform: skewX(0deg) translateY(0px);
+}
+
+.noshowpopup {
+  opacity: 0;
+  visibility: hidden;
+  transform: skewX(3deg) translateY(-200px);
+}
+@keyframes morph {
+  0%,
+  100% {
+    border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+  }
+  33% {
+    border-radius: 72% 28% 48% 48% / 28% 28% 72% 72%;
+  }
+  66% {
+    border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+  }
+}
+
+.blob {
+  border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+  animation: morph 3.5s linear infinite;
+  border: 2px solid black;
+}
+.blob2 {
+  border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+  animation: morph 3.5s linear infinite;
+  border: 2px solid white;
+}
