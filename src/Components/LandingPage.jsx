@@ -42,6 +42,9 @@ const LandingPage = () => {
                   login
                 </button>
                 <button className="uppercase text-[#6921EF] font-bold lg:text-xl md:text-lg text-base text-center bg-white px-5 py-2 rounded-[12px] shadow-md hover:shadow-xl transition-all duration-300 ease-in-out">
+                  Courses
+                </button>
+                <button className="uppercase text-[#6921EF] font-bold lg:text-xl md:text-lg text-base text-center bg-white px-5 py-2 rounded-[12px] shadow-md hover:shadow-xl transition-all duration-300 ease-in-out">
                   get started
                 </button>
               </div>
@@ -96,6 +99,9 @@ const LandingPage = () => {
               <div className="flex flex-col justify-center items-center gap-4">
                 <button className="uppercase bg-transparent border-4 border-[#6721EF] font-bold lg:text-xl md:text-lg text-base text-center text-[#6721EF] w-[100%] px-5 py-1 rounded-[12px] shadow-md hover:shadow-xl transition-all duration-300 ease-in-out">
                   login
+                </button>
+                <button className="uppercase bg-[#6921EF] font-bold lg:text-xl md:text-lg text-base text-center text-white px-5 py-2 rounded-[12px] shadow-md w-[100%] hover:shadow-xl transition-all duration-300 ease-in-out">
+                  Courses
                 </button>
                 <button className="uppercase bg-[#6921EF] font-bold lg:text-xl md:text-lg text-base text-center text-white px-5 py-2 rounded-[12px] shadow-md w-[100%] hover:shadow-xl transition-all duration-300 ease-in-out">
                   get started
