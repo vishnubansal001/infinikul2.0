@@ -27,7 +27,7 @@ const CardCont = ({ courseCategory, courses }) => {
         <div className="pt-4 relative">
             <div className="py-3 text-2xl font-semibold">{courseCategory}</div>
             <div
-                className="flex flex-row gap-5 overflow-hidden pb-4"
+                className="flex flex-row gap-5 overflow-scroll md:overflow-hidden pb-4"
                 ref={(node) => {
                     mainRef.current = node;
                     if (node) setMaxScroll(node.scrollWidth - node.offsetWidth);
