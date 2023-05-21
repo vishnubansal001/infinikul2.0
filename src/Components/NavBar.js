@@ -28,7 +28,7 @@ export const NavBar = () => {
         </button>
 
         <button
-          className={`hidden lg:block text-base font-bold text-purple-600 bg-white w-44 flex items-center justify-center rounded-2xl h-12 ${
+          className={`hidden lg:flex text-base font-bold text-purple-600 bg-white w-44 items-center justify-center rounded-2xl h-12 ${
             isMenuOpen ? "menu-open" : ""
           }`}
           onClick={toggleMenu}

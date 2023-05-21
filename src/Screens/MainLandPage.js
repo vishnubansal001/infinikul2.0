@@ -6,11 +6,11 @@ import Creator from "../Components/Creator";
 
 export const MainLandPage = () => {
   return (
-    <div>
+    <>
       <LandingPage />
       <CoursesSection />
       <Creator />
       <Footer />
-    </div>
+    </>
   );
 };

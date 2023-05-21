@@ -50,11 +50,11 @@ const LandingPage = () => {
         </header>
         <header className="relative">
           <nav
-            className={`lg:hidden flex fixed w-full z-[1000] ${
+            className={`lg:hidden flex w-full z-[1000] ${
               !navState ? "bg-transparent" : "bg-[#6721EF]"
             }`}
           >
-            <div className="w-full px-[20px] py-[10px] z-[1000]">
+            <div className="w-[90%] mx-auto z-[1000]">
               <div className="flex justify-between items-center">
                 <div>
                   <img
@@ -104,7 +104,7 @@ const LandingPage = () => {
             </div>
           </div>
         </header>
-        <section className="flex select-none items-center justify-center min-h-screen h-full relative">
+        <section className="flex select-none items-center justify-center min-h-screen h-full w-full relative">
           <div className="flex items-center justify-center mx-auto p-6 sm:p-12 lg:p-16">
             <div className="flex flex-col items-center justify-center lg:gap-12 md:gap-10 gap-8">
               <div className="flex flex-col justify-center items-center text-center text-white md:w-auto w-[90%] mx-auto gap-4">
