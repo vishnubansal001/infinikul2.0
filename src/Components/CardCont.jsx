@@ -35,9 +35,9 @@ const CardCont = ({ courseCategory, courses }) => {
                 }}
             >
                 <button
-                    className={`absolute top-1/2 left-2 w-10 h-10 p-1 rounded-xl bg-white place-items-center z-10`}
+                    className={`absolute top-1/2 left-2 w-10 h-10 p-1 rounded-xl bg-white place-items-center z-10 hidden md:grid`}
                     style={{
-                        display: scrollLeft - 20 > 0 ? "grid" : "none",
+                        display: scrollLeft - 20 > 0 ? "" : "none",
                     }}
                     onClick={() => btnScroll(-1)}
                 >
@@ -55,9 +55,9 @@ const CardCont = ({ courseCategory, courses }) => {
                     />
                 ))}
                 <button
-                    className="absolute top-1/2 right-2 w-10 h-10 p-1 rounded-xl bg-white grid place-items-center z-10"
+                    className="absolute top-1/2 right-2 w-10 h-10 p-1 rounded-xl bg-white place-items-center z-10 hidden md:grid"
                     style={{
-                        display: scrollLeft + 20 < maxScroll ? "grid" : "none",
+                        display: scrollLeft + 20 < maxScroll ? "" : "none",
                     }}
                     onClick={() => btnScroll(1)}
                 >
