@@ -1,6 +1,7 @@
 import React from 'react'
 import LandingPage from '../Components/LandingPage'
 import CoursesSection from '../Components/CoursesSection'
+import Footer from '../Components/Footer'
 
 export const MainLandPage = () => {
   return (
@@ -8,7 +9,7 @@ export const MainLandPage = () => {
 
         <LandingPage/>
         <CoursesSection/>
-        
+        <Footer/>
          
     </div>
   )
