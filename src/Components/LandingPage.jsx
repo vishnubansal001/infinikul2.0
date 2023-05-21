@@ -65,7 +65,7 @@ const LandingPage = () => {
                 </div>
                 <div onClick={onTriggerPopup}>
                   <svg
-                    class="w-[45px] h-[45px] sm:w-[40px] sm:h-[40px]"
+                    className="w-[45px] h-[45px] sm:w-[40px] sm:h-[40px]"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
